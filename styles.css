@@ -6,7 +6,6 @@ padding: 10%;
 align-content: center;
 justify-content: center;
 background-color: hsla(0, 0%, 100%, 0.75);
-
 }
 
 
@@ -21,13 +20,21 @@ align-content: center;
 box-sizing: border-box;
 }
 
-#image{
+#image-box{
 grid-area: image ;
 width: 100% ;
 height: 100% ;
-background-image: url("images/image-header-desktop.jpg") ;
-background-size: cover ;
 background-color: hsl(277, 64%, 61%) ;
+border-radius: 0 10px 10px 0 ;
+}
+
+#photo{
+background-image: url("images/image-header-desktop.jpg") ;
+background-size: 100% 100% ;
+opacity: 0.5 ;
+grid-area: image ;
+width: 100% ;
+height: 100% ;
 border-radius: 0 10px 10px 0 ;
 }
 
