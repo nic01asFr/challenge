@@ -104,7 +104,7 @@ padding-left: 0 ;
 }
 
 
-@media (max-width: 505px) {
+@media (max-width: 375px) {
 body{
 	width: 375px ;
 	font-size: 1em ;	
